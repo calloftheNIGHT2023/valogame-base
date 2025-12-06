@@ -14,9 +14,7 @@ import legends.turn.TurnController;
 import legends.world.Position;
 import legends.world.WorldMap;
 
-/**
- * 精简版游戏启动骨架，供三位同学在其基础上继续填充逻辑。
- */
+
 public class LegendsGame {
 
     private final IO io;
@@ -58,3 +56,4 @@ public class LegendsGame {
         return new Party(Arrays.asList(hero1, hero2, hero3));
     }
 }
+
