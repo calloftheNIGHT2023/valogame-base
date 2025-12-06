@@ -4,9 +4,7 @@ import legends.world.Position;
 import legends.world.TileType;
 
 /**
- * Minimal monster definition. Person 1 owns movement/AI (A5, A6) and Person 2
- * will plug in combat stats (B2). Fields are intentionally small; extend as
- * systems evolve.
+ * Minimal monster definition.
  */
 public class Monster {
 
