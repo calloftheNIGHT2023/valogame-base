@@ -23,11 +23,7 @@ public class TurnController {
     }
 
     public void run() {
-        // TODO(C1): Implement the full round structure.
-        // 1. Iterate heroes for actions.
-        // 2. Resolve monster actions.
-        // 3. Handle regeneration, respawn and spawning.
-        // 4. Check victory conditions.
+        // Implement the full round structure.
         io.println("Turn controller not yet implemented. Ready for Person 3.");
     }
 
@@ -39,3 +35,4 @@ public class TurnController {
         return combatResolver;
     }
 }
+
