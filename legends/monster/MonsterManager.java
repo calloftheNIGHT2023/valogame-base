@@ -10,10 +10,7 @@ import legends.world.Position;
 import legends.world.WorldMap;
 
 /**
- * Shared place-holder for the upcoming monster systems owned by Person 1.
- * The class currently tracks the active monsters and exposes minimal API that
- * the game loop can call into. As features are implemented the internal
- * structure can evolve (lane queues, spawn timers, AI, etc.).
+ * Shared place-holder for the upcoming monster systems 
  */
 public class MonsterManager {
 
@@ -69,3 +66,4 @@ public class MonsterManager {
         return worldMap;
     }
 }
+
