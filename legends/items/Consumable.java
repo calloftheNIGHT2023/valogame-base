@@ -5,7 +5,7 @@ import legends.model.Monster;
 import legends.io.IO;
 
 /**
- * Placeholder consumable definition，等待 Person 2 根据新规则完善具体效果。
+ 
  */
 public class Consumable implements Item {
 
@@ -72,3 +72,4 @@ public class Consumable implements Item {
         return String.format("%s (Lv %d %s potency=%d price=%d)", name, level, type, potency, price);
     }
 }
+
