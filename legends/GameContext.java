@@ -9,8 +9,7 @@ import legends.world.WorldMap;
 
 /**
  * Shared state object passed between the different subsystems of the new game
- * implementation. The intent is for Person&nbsp;1/2/3 to collaborate against a
- * single source of truth instead of each component owning bespoke globals.
+ * implementation. 
  */
 public final class GameContext {
 
@@ -52,3 +51,4 @@ public final class GameContext {
         return party.getHero(index);
     }
 }
+
