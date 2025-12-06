@@ -9,8 +9,7 @@ import legends.model.Hero;
 import legends.world.Position;
 
 /**
- * Minimal hero party container. Person 2 / Person 3 will extend this with
- * inventory management and action validation (B1, B5, C3).
+ * Minimal hero party container. 
  */
 public class Party {
 
@@ -72,3 +71,4 @@ public class Party {
         return true;
     }
 }
+
