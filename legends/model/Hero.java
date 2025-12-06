@@ -11,10 +11,6 @@ import legends.items.Weapon;
 import legends.world.Position;
 import legends.world.TileType;
 
-/**
- * Minimal hero data model kept intentionally lightweight so Person 2 can build
- * the combat, inventory, and leveling logic on top of it.
- */
 public class Hero {
 
     public enum Archetype {
