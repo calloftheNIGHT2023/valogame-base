@@ -6,9 +6,7 @@ import legends.io.IO;
 import legends.monster.MonsterManager;
 
 /**
- * Skeleton for the round/turn flow (C1). Person 3 owns the full implementation.
- * The class currently exposes a single {@link #run()} method that will control
- * the high-level loop once the remaining subsystems are ready.
+ * Skeleton for the round/turn flow (C1). 
  */
 public class TurnController {
 
@@ -35,4 +33,5 @@ public class TurnController {
         return combatResolver;
     }
 }
+
 
